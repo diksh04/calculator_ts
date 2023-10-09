@@ -1,0 +1,58 @@
+// const names: string = "dikshant";
+// let age: number = 5;
+// let isStudent: boolean = true;
+// let hobbies: string[] = ["hello", "world"];
+
+// // tuple -> A tuple is a typed array with a pre-defined length and types for each index.
+// let role: [number, string] = [2, "dikshant"];
+// // let random: number | string;//union
+// // random = 'dikshant';
+// // random = 5;
+// // object
+// // type Person = {
+// //   name: string;
+// //   age?: number;//optional
+// // };
+// // let person: Person = {
+// //   name: "dikshnt",
+// //   age: 4,
+// // };
+// // let lotsOfPeople:Person[];
+
+// // function printMyName(name:string){
+// //   console.log(name)
+// // }
+// // printMyName('dikshant');
+
+// //declare a function type whether it's return type is int/string/bool and if we don't know what it gonna return we can write never,void return undefined but never returns anything
+// // let printName: (name:string) => void;
+
+// //unknown is recommended over any 
+// // let personName:unknown;
+
+// // Alias are of 2 types Type & Interface
+// interface Person {
+//   name: string;
+//   age?: number;
+// }
+// type Z = Person & {
+//   a: string;
+//   b: number;
+// };
+// interface Guy extends Z {
+//   profession: string;
+// }
+
+// // type X = {
+// //   a: string;
+// //   b?: number;
+// // };
+// // type Y = X & { // contains c,d & a,b
+// //   c: string;
+// //   d: number;
+// // };
+// // let y: Y & {
+// //   c: "hello";
+// //   d: 5;
+// //   //it will throw error if we don't write a & b
+// // };
